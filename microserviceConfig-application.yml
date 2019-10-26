@@ -1,4 +1,4 @@
-
+# 此yml文件是给客户端使用，而resource目录下的application.yml是给自己这个微服务使用
 spring:
   profiles:
     active: dev  # 激活开发环境配置
