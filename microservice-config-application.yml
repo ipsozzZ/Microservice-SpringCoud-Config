@@ -2,6 +2,8 @@
 spring:
   profiles:
     active: dev  # 激活开发环境配置
+    
+---
 
 ---
 
@@ -19,4 +21,9 @@ server:
 spring:
   profiles: prod  # 开发环境
   application:
+<<<<<<< HEAD:microservice-config-application.yml
     name: microservice-config-prod  # 微服务名称
+=======
+    name: microservice-config-prod  # 微服务名称
+
+>>>>>>> 7e34838430bea8dc54e7d52e21a95afb8561f1a4:microservice-config-application.yml
